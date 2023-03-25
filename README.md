@@ -4,7 +4,7 @@ This project consists of a [QGIS](https://www.qgis.org/en/site/) project that re
 ## Feature Attribute Descriptions
 Each layer has a list of metadata called attributes. The attributes store the interesting information related to each physical line or data center, such as phone number or address. 
 
-### Data Center Layers - Seperated by city
+### Data Center Layer
 id - Unique ID of the feature  
 Company - Name of the company that owns the data center  
 Address - The address of the data center  
@@ -15,8 +15,10 @@ Cooling - Description of the data centers cooling system
 Name - The name of the data center  
 Notes - Miscellaneous notes for the data center  
 PhoneNum - The data centers phone number (at the time of feature creation)  
+City - The city the data center is located in  
+Region - The region or state in which the data center is located  
 
-### Physical Line Layers - Seperated by company ownership 
+### Physical Lines Layer
 id - Unique ID of the feature  
 CableType - The material or type of the cable (e.g., fiber)  
 Company - The company that owns the cable 
