@@ -28,6 +28,7 @@ Website - Link to the data centers website
 PowerSys - Description of the data centers power system  
 NetworkHw - Descriptionn of the data centers networking hardware  
 Cooling - Description of the data centers cooling system  
+PhysSec - Physical security mechanisms employed by the data center  
 Name - The name of the data center  
 Notes - Miscellaneous notes for the data center  
 PhoneNum - The data centers phone number (at the time of feature creation)  
