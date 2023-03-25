@@ -1,5 +1,20 @@
+
+
 # CYBRCapstone-PhysicalInfrastructureMap
 This project consists of a [QGIS](https://www.qgis.org/en/site/) project that represents the physical infrastructure of the internet. Currently, the mapping focuses on the state of michigan, but was designed in a way to allow extension to other regions.
+
+# Interactive Map of Datacenters
+
+```geojson
+{
+"type": "FeatureCollection",
+"name": "DataCenters",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Company": "Company Name", "Address": "Some Address", "Website": "Website link", "PowerSys": "Power System", "NetworkHw": "Network Hardware", "Cooling": "Cooling System", "PhysSec": "Physical Security", "Name": "Data Center Name", "Notes": "Some Notes", "PhoneNum": "123-456-7891", "City": "Grand Rapids", "Region": "Michigan" }, "geometry": { "type": "Point", "coordinates": [ -85.609998076504766, 42.941196805170449 ] } }
+]
+}
+```
 
 ## Feature Attribute Descriptions
 Each layer has a list of metadata called attributes. The attributes store the interesting information related to each physical line or data center, such as phone number or address. 
